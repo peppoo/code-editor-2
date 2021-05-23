@@ -1,0 +1,133 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   push: false,
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook
+3 verbose session 3d6518e162f7d5de
+4 verbose user-agent lerna/3.22.1/node@v12.16.3+x64 (win32)
+5 silly argv {
+5 silly argv   _: [ 'publish' ],
+5 silly argv   push: false,
+5 silly argv   composed: 'publish',
+5 silly argv   lernaVersion: '3.22.1'
+5 silly argv }
+6 verbose rootPath C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook
+7 info current version 0.0.0
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly currentBranch
+11 verbose currentBranch master
+12 silly hasTags
+13 verbose hasTags false
+14 info Assuming all packages changed
+15 verbose updated jsnote
+16 verbose updated @jsnote/local-api
+17 verbose updated @jsnote/local-client
+18 verbose git-describe undefined => "7d4f591"
+19 silly git-describe parsed => {"refCount":"1","sha":"7d4f591","isDirty":false}
+20 info execute Skipping git push
+21 info execute Skipping releases
+22 silly lifecycle No script for "preversion" in "root", continuing
+23 silly lifecycle No script for "preversion" in "@jsnote/local-client", continuing
+24 silly lifecycle No script for "version" in "@jsnote/local-client", continuing
+25 silly lifecycle No script for "preversion" in "@jsnote/local-api", continuing
+26 silly lifecycle No script for "version" in "@jsnote/local-api", continuing
+27 silly lifecycle No script for "preversion" in "jsnote", continuing
+28 silly lifecycle No script for "version" in "jsnote", continuing
+29 silly lifecycle No script for "version" in "root", continuing
+30 silly gitAdd [
+30 silly gitAdd   'packages/local-client/package.json',
+30 silly gitAdd   'packages/local-client/package-lock.json',
+30 silly gitAdd   'packages/local-api/package.json',
+30 silly gitAdd   'packages/local-api/package-lock.json',
+30 silly gitAdd   'packages/cli/package.json',
+30 silly gitAdd   'packages/cli/package-lock.json',
+30 silly gitAdd   'lerna.json'
+30 silly gitAdd ]
+31 silly gitCommit v1.0.0
+32 verbose git [ 'commit', '-m', 'v1.0.0' ]
+33 silly gitTag v1.0.0
+34 verbose git [ 'tag', 'v1.0.0', '-m', 'v1.0.0' ]
+35 silly lifecycle No script for "postversion" in "jsnote", continuing
+36 silly lifecycle No script for "postversion" in "@jsnote/local-api", continuing
+37 silly lifecycle No script for "postversion" in "@jsnote/local-client", continuing
+38 silly lifecycle No script for "postversion" in "root", continuing
+39 info publish Publishing packages to npm...
+40 info Verifying npm credentials
+41 verbose Retrieving npm user profile
+42 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1425ms
+43 silly npm profile get received {"tfa":false,"name":"peppoo","email":"peppo3014@i.softbank.jp","email_verified":false,"created":"2021-05-21T08:52:52.199Z","updated":"2021-05-21T08:52:52.192Z","cidr_whitelist":null}
+44 silly get npm username received {"username":"peppoo","tfa":false,"name":"peppoo","email":"peppo3014@i.softbank.jp","email_verified":false,"created":"2021-05-21T08:52:52.199Z","updated":"2021-05-21T08:52:52.192Z","cidr_whitelist":null}
+45 silly verifyNpmPackageAccess
+46 http fetch GET 200 https://registry.npmjs.org/-/org/peppoo/package?format=cli 300ms
+47 warn The logged-in user does not have any previously-published packages, skipping permission checks...
+48 info Checking two-factor auth mode
+49 verbose Retrieving npm user profile
+50 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 682ms
+51 silly npm profile get received {"tfa":false,"name":"peppoo","email":"peppo3014@i.softbank.jp","email_verified":false,"created":"2021-05-21T08:52:52.199Z","updated":"2021-05-21T08:52:52.192Z","cidr_whitelist":null}
+52 silly 2FA false
+53 warn ENOLICENSE Packages jsnote, @jsnote/local-api, and @jsnote/local-client are missing a license.
+53 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+53 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+54 silly getCurrentSHA
+55 verbose getCurrentSHA 050fd0fd1873477a5157fbbf6865b1bee0cca77e
+56 silly lifecycle No script for "prepublish" in "root", continuing
+57 silly lifecycle No script for "prepare" in "root", continuing
+58 silly lifecycle No script for "prepublishOnly" in "root", continuing
+59 silly lifecycle No script for "prepack" in "root", continuing
+60 verbose pack-directory packages\local-client
+61 silly lifecycle No script for "prepublish" in "@jsnote/local-client", continuing
+62 silly lifecycle No script for "prepare" in "@jsnote/local-client", continuing
+63 silly lifecycle "prepublishOnly" starting in "@jsnote/local-client"
+64 info lifecycle @jsnote/local-client@1.0.0~prepublishOnly: @jsnote/local-client@1.0.0
+65 verbose lifecycle @jsnote/local-client@1.0.0~prepublishOnly: unsafe-perm in lifecycle true
+66 verbose lifecycle @jsnote/local-client@1.0.0~prepublishOnly: PATH: C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\packages\local-client\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\home\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Symantec\VIP Access Client;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\curl\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby26-x64\bin;C:\Users\otsuki tappei\AppData\Local\Microsoft\WindowsApps;C:\Users\otsuki tappei\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\otsuki tappei\AppData\Local\GitHubDesktop\bin;C:\Users\otsuki tappei\AppData\Roaming\npm
+67 verbose lifecycle @jsnote/local-client@1.0.0~prepublishOnly: CWD: C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\packages\local-client
+68 silly lifecycle @jsnote/local-client@1.0.0~prepublishOnly: Args: [ '/d /s /c', 'npm run build' ]
+69 silly lifecycle @jsnote/local-client@1.0.0~prepublishOnly: Returned: code: 0  signal: null
+70 silly lifecycle "prepublishOnly" finished in "@jsnote/local-client"
+71 silly lifecycle No script for "prepack" in "@jsnote/local-client", continuing
+72 silly lifecycle No script for "postpack" in "@jsnote/local-client", continuing
+73 verbose packed packages\local-client
+74 verbose pack-directory packages\cli
+75 verbose pack-directory packages\local-api
+76 silly lifecycle No script for "prepublish" in "jsnote", continuing
+77 silly lifecycle No script for "prepublish" in "@jsnote/local-api", continuing
+78 silly lifecycle No script for "prepare" in "jsnote", continuing
+79 silly lifecycle No script for "prepare" in "@jsnote/local-api", continuing
+80 silly lifecycle "prepublishOnly" starting in "jsnote"
+81 info lifecycle jsnote@1.0.0~prepublishOnly: jsnote@1.0.0
+82 verbose lifecycle jsnote@1.0.0~prepublishOnly: unsafe-perm in lifecycle true
+83 verbose lifecycle jsnote@1.0.0~prepublishOnly: PATH: C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\packages\cli\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\home\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Symantec\VIP Access Client;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\curl\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby26-x64\bin;C:\Users\otsuki tappei\AppData\Local\Microsoft\WindowsApps;C:\Users\otsuki tappei\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\otsuki tappei\AppData\Local\GitHubDesktop\bin;C:\Users\otsuki tappei\AppData\Roaming\npm
+84 verbose lifecycle jsnote@1.0.0~prepublishOnly: CWD: C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\packages\cli
+85 silly lifecycle jsnote@1.0.0~prepublishOnly: Args: [
+85 silly lifecycle   '/d /s /c',
+85 silly lifecycle   'esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\"production\\"'
+85 silly lifecycle ]
+86 silly lifecycle "prepublishOnly" starting in "@jsnote/local-api"
+87 info lifecycle @jsnote/local-api@1.0.0~prepublishOnly: @jsnote/local-api@1.0.0
+88 silly lifecycle jsnote@1.0.0~prepublishOnly: Returned: code: 0  signal: null
+89 verbose lifecycle @jsnote/local-api@1.0.0~prepublishOnly: unsafe-perm in lifecycle true
+90 verbose lifecycle @jsnote/local-api@1.0.0~prepublishOnly: PATH: C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\packages\local-api\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\home\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Symantec\VIP Access Client;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\curl\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby26-x64\bin;C:\Users\otsuki tappei\AppData\Local\Microsoft\WindowsApps;C:\Users\otsuki tappei\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\otsuki tappei\AppData\Local\GitHubDesktop\bin;C:\Users\otsuki tappei\AppData\Roaming\npm
+91 verbose lifecycle @jsnote/local-api@1.0.0~prepublishOnly: CWD: C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\packages\local-api
+92 silly lifecycle @jsnote/local-api@1.0.0~prepublishOnly: Args: [ '/d /s /c', 'tsc' ]
+93 silly lifecycle "prepublishOnly" finished in "jsnote"
+94 silly lifecycle No script for "prepack" in "jsnote", continuing
+95 error ZlibError: zlib: unexpected end of file
+95 error     at Unzip.write (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\minizlib\index.js:147:22)
+95 error     at Unzip.flush (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\minizlib\index.js:98:10)
+95 error     at Unzip.end (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\minizlib\index.js:104:10)
+95 error     at Object.end (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\tar\lib\parse.js:421:21)
+95 error     at Yallist.<anonymous> (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\minipass\index.js:394:18)
+95 error     at Yallist.forEach (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\yallist\yallist.js:156:8)
+95 error     at ReadStream.emit (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\minipass\index.js:391:18)
+95 error     at ReadStream.emit (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\fs-minipass\index.js:154:22)
+95 error     at ReadStream.[maybeEmitEnd] (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\minipass\index.js:355:12)
+95 error     at ReadStream.end (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\minipass\index.js:235:27)
+95 error     at ReadStream.[_handleChunk] (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\fs-minipass\index.js:136:13)
+95 error     at ReadStream.[_onread] (C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\fs-minipass\index.js:109:32)
+95 error     at C:\Users\otsuki tappei\Documents\GitHub\udemy-React-and-Typescript-Build-a-Portfolio-Project\prod\jbook\node_modules\fs-minipass\index.js:101:22
